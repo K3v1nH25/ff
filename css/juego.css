@@ -1,0 +1,38 @@
+.contedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: rgba(4, 87, 138, 0.267);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 20px; /*separa los elementos internos de una seccion*/
+    border-radius: 20px;
+
+    
+}
+
+button:hover {
+    background: rgba(80, 81, 81, 0.267);
+}
+
+button:hover::after {
+    content: "X";
+    color: red;
+
+}
+
+.label { 
+    margin-top: 20px;
+  
+}
+
